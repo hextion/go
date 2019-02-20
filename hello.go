@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"github.com/hextion/stringutil"
+)
 
 func main() {
-	fmt.Println("hello, world!")
+	fmt.Println(stringutil.Reverse("!dlrow ,olleh"))
 }
